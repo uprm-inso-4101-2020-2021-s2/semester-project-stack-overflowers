@@ -88,8 +88,8 @@
                    {#////////////////////////////////////////////////#}
                     {% define Entry.game.game_id as action %}
 
-                    {% if Democrats|lookup:action is not None %}
-                        <td>{{ Democrats|lookup:action }}</td>
+                    {% if Ratings|lookup:action is not None %}
+                        <td>{{ Ratings|lookup:action }}</td>
                     {% else %}
                         <td>N/A</td>
                     {% endif %}

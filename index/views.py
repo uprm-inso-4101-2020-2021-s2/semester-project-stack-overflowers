@@ -237,7 +237,7 @@ class LibraryGameView(ListView):
 
 
         # dic = {132972:"THIS IS A TEST"}
-        context["Democrats"] = ratings
+        context["Ratings"] = ratings
         return context
 def getAverageRatings(game_id):
     game = Ratings_Model.objects.filter(game_id=game_id)
